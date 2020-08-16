@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Your Age in Days</string>
+    <string name="home_title">Calculate your</string>
+    <string name="home_subtitle">Age</string>
+    <string name="home_time_text">In days</string>
+    <string name="button_text">Select Date</string>
+    <string name="selected_date_text">Selected Date</string>
+    <string name="selected_date_min_text">Age in days</string>
+</resources>

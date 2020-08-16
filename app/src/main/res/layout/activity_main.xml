@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/space_medium"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium"
+        android:text="@string/home_title"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_medium"
+        android:background="@color/cyan_500"
+        android:paddingStart="@dimen/space_medium"
+        android:paddingTop="@dimen/space_small"
+        android:paddingEnd="@dimen/space_medium"
+        android:paddingBottom="@dimen/space_small"
+        android:text="@string/home_subtitle"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium"
+        android:text="@string/home_time_text"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/space_small"
+        android:text="@string/button_text"
+        android:textSize="@dimen/font_medium" />
+
+    <TextView
+        android:id="@+id/textView_selected_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium"
+        tools:text="1/12/2019"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_date_text"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/font_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_selected_date_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_large"
+        tools:text="14400"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_huge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_date_min_text"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/font_medium"
+        android:textStyle="bold" />
+
+</LinearLayout>
